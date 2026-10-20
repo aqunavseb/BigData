@@ -4,15 +4,30 @@ __pycache__/
 *$py.class
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+.ipynb_checkpoints*/
+*/.ipynb_checkpoints/*
 
 # Virtual environments
-venv/
-.venv/
+.env
+.venv
 env/
+venv/
+ENV/
 
-# Temporary / OS
+# Operating System files
 .DS_Store
 Thumbs.db
-*.tmp
+Desktop.ini
+
+# Secrets, keys, and tokens
+*.key
+*.pem
+*.crt
+*secret*
+*credential*
+
+# Logs and databases
 *.log
+*.sqlite3
+*.tmp
+*.bak
